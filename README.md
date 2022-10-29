@@ -1,22 +1,27 @@
-# canvas
-un modulo de creacion y edicion de imagenes en nodejs
+# Canvas es un modulo de creación y manejo de imagenes para NodeJS.
 
 
 📦 Instalación
 ```bash
 npm install canvas
 ```
-## Uso
-  Requiere minimo usar Node.js v6 en la version actual que la v2.10 de canvas.
-
-  Puede experimentar problemas al usar Node.js v18, se recomienda usar la versión LTS de Node.js.
-
-## como Importar el módulo
+## Importar Canvas
+### CommonJS
 ```js
 const canvas = require('canvas');
 ```
+### ECMAScript
+```js
+import canvas from 'canvas'
+```
 
-## lo que requiere y su razon 
-- nodejs o un navegador que soporte canvas
-- python necesitas si estas en nodejs por la sensilla razon de que el paquete canvas de node usa C++ y require node-gyp que usa python para compilar el C++ para que se entiendad en node
-- npm o yarn si usas nodejs para instalar el paquete de canvas
+## los requisictos para instalar y usar Canvas 
+- La Versión de Canvas Utilizada es 2.10
+
+- La Versión de NodeJS Utilizada es 6.0.0 y superior
+
+- Python
+
+Python se usa por la sencilla razón de que el paquete Canvas usa C++ y NodeJS usa node-gyp para compilar el C++ en el que está escrito el código del paquete Canvas.
+
+## Uso
