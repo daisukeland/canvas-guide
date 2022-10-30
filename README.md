@@ -21,6 +21,5 @@ import canvas from 'canvas'
 - La Versión de NodeJS Utilizada es 6.0.0 y superior
 
 ## Informacion Extra
-para luos suarios que usan Windows y la instalacion les falla pueden ir a (<a href="https://github.com/Automattic/node-canvas/wiki/Installation:-Windows" target="_blank">canvas for Windows</a>)
+para los usuarios que usan Windows y la instalacion les falla pueden ir a [canvas for Windows](https://github.com/Automattic/node-canvas/wiki/Installation:-Windows). Ya que esta lo que se requiere para una instalacion exitosa de Canvas.
 ## Uso
-
